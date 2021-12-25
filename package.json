@@ -1,0 +1,20 @@
+{
+  "name": "crickgear",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "A React App",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
+  },
+  "author": "Binish",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.5.0",
+    "eslint-plugin-react": "^7.27.1",
+    "nodemon": "^2.0.15"
+  }
+}
