@@ -24,8 +24,8 @@ const data = {
   ],
   products: [
     {
-      name: 'Adidas Cricket Bat1',
-      category: 'Cricker Bats',
+      name: 'Adidas Cricket Bat',
+      catergory: 'Cricker Bats',
       image: '/images/d1.jpg',
       price: 200,
       countInStock: 10,
@@ -36,7 +36,7 @@ const data = {
     },
     {
       name: 'MRF Cricket Bat',
-      category: 'Cricker Bats',
+      catergory: 'Cricker Bats',
       image: '/images/d2.jpg',
       price: 330,
       countInStock: 20,
@@ -47,7 +47,7 @@ const data = {
     },
     {
       name: 'PUMA Cricket Bat',
-      category: 'Cricker Bats',
+      catergory: 'Cricker Bats',
       image: '/images/d3.jpg',
       price: 320,
       countInStock: 25,
@@ -58,7 +58,7 @@ const data = {
     },
     {
       name: 'Gray-Nicolas Cricket Bat',
-      category: 'Cricker Bats',
+      catergory: 'Cricker Bats',
       image: '/images/d4.jpg',
       price: 280,
       countInStock: 12,
@@ -69,7 +69,7 @@ const data = {
     },
     {
       name: 'Newbury Cricket Bat',
-      category: 'Cricker Bats',
+      catergory: 'Cricker Bats',
       image: '/images/d5.jpg',
       price: 250,
       countInStock: 18,
@@ -80,7 +80,7 @@ const data = {
     },
     {
       name: 'Kookabura Cricket Bat',
-      category: 'Cricker Bats',
+      catergory: 'Cricker Bats',
       image: '/images/d6.jpg',
       price: 300,
       countInStock: 16,
@@ -91,7 +91,7 @@ const data = {
     },
     {
       name: 'CA Cricket Bat',
-      category: 'Cricker Bats',
+      catergory: 'Cricker Bats',
       image: '/images/d7.jpg',
       price: 320,
       countInStock: 10,
@@ -102,7 +102,7 @@ const data = {
     },
     {
       name: 'Insignia County Hunts Cricket Bat',
-      category: 'Cricker Bats',
+      catergory: 'Cricker Bats',
       image: '/images/d8.jpg',
       price: 280,
       countInStock: 11,
@@ -113,7 +113,7 @@ const data = {
     },
     {
       name: 'Chase Cricket Bat',
-      category: 'Cricker Bats',
+      catergory: 'Cricker Bats',
       image: '/images/d9.jpg',
       price: 220,
       countInStock: 0,
@@ -124,7 +124,7 @@ const data = {
     },
     {
       name: 'SS TON Cricket Bat',
-      category: 'Cricker Bats',
+      catergory: 'Cricker Bats',
       image: '/images/d10.jpg',
       price: 250,
       countInStock: 14,
@@ -135,7 +135,7 @@ const data = {
     },
     {
       name: 'Spartan Cricket Bat',
-      category: 'Cricker Bats',
+      catergory: 'Cricker Bats',
       image: '/images/d11.jpg',
       price: 100,
       countInStock: 19,
@@ -145,12 +145,12 @@ const data = {
       description: 'High quality cricket bat',
     },
     {
-      name: 'SS TON1 Cricket Bat',
-      category: 'Cricker Bats',
+      name: 'SS TON Cricket Bat',
+      catergory: 'Cricker Bats',
       image: '/images/d12.jpg',
       price: 150,
       countInStock: 14,
-      brand: 'SS TON1',
+      brand: 'SS TON ',
       rating: 3.5,
       numReviews: 12,
       description: 'High quality cricket bat',
