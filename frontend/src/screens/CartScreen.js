@@ -4,7 +4,7 @@ import { Link, useLocation, useNavigate, useParams } from 'react-router-dom'
 import { addToCart, removeFromCart } from '../actions/cartActions'
 import MessageBox from '../components/MessageBox'
 
-export default function CartScreen(props) {
+export default function CartScreen() {
   const navigate = useNavigate()
   const params = useParams()
   const { id: productId } = params
@@ -29,7 +29,7 @@ export default function CartScreen(props) {
     dispatch(removeFromCart(id))
   }
   const checkoutHandler = () => {
-    navigate('/signin?redirectEshipping')
+    navigate('/signin?redirect=/shipping')
   }
 
   return (
@@ -71,7 +71,7 @@ export default function CartScreen(props) {
                       ))}
                     </select>
                   </div>
-                  <div>${item.price}</div>
+                  <div>£{item.price}</div>
                   <div>
                     <button
                       type="button"
